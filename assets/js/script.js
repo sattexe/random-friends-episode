@@ -7,7 +7,7 @@ var headings = [
 ];
 
 var getEpisodes = function() {
-    $.getJSON('https://dev.sattiyans.com/random-friends-episode/require/data/friends.json', function(episodes) {
+    $.getJSON('../../require/data/friends.json', function(episodes) {
             console.info('Episodes loaded!', episodes);
             window.episodes = episodes;
         })
