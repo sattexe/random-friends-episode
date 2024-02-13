@@ -133,11 +133,27 @@
         outline-offset: 15px;
         text-shadow: 1px 1px 2px #427388;
       }
+      .github-link {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000; /* Ensure it's above other content */
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+    .github-link i {
+        color: #fff;
+        font-size: 24px;
+    }
     </style>
   </head>
 
   <body>
     <main>
+      <a href="https://github.com/sattiyans/random-friends-episode" target="_blank" class="github-link">
+        <i class="fab fa-github"></i>
+    </a>
       <div class="container" style="text-align: center; padding: 50% 0">
         <h2 style="text-align: center; margin-bottom: 10px">
           The One with Random<br />
